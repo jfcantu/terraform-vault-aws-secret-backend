@@ -24,11 +24,10 @@ variable "description" {
 }
 
 variable "default_lease_ttl_seconds" {
-    type = string
-    default = null
+    type = number
 }
 
 variable "max_lease_ttl_seconds" {
-    type = string
+    type = number
     default = null
 }
