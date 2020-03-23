@@ -25,6 +25,7 @@ variable "description" {
 
 variable "default_lease_ttl_seconds" {
     type = number
+    default = null
 }
 
 variable "max_lease_ttl_seconds" {
